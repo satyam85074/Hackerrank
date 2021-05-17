@@ -48,8 +48,10 @@ Hence, the output is True.
 """
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-i = map(int,raw_input().split())
-x,k = i[0],i[1]
-if input() == k:
-    print True
-else: print False
+x, y= map(int,input().split())
+user = input()
+a = eval(user)
+if a == y:
+    print("True")
+else:
+    print("False")
